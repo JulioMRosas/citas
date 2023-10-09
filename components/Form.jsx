@@ -20,7 +20,7 @@ const Form = () => {
             <textarea type="text" placeholder='Introduzca su nombre' id='symptoms' className='p-2 rounded-md resize-none bg-[#470d0db4]'/>
         </div>
         <div>
-            <button className='bg-[#470d0d] mt-2 p-2 rounded-md'>Nueva Cita</button>
+            <button className='text-white bg-[#470d0de7] mt-2 p-2 rounded-md'>Nueva Cita</button>
         </div>
     </form>
   </>
