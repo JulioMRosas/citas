@@ -53,6 +53,7 @@ const NavBar = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
+        <Popover.Overlay className="fixed inset-0 bg-black opacity-30" />
         <Popover.Panel className='absolute bg-[#e0daa2] p-4 rounded-md w-2/4 border-2 border-[#333]'>
           <ul className='space-y-5'>
             <li>
